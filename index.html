@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 영국유학 비자 지원센터</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for better visual appeal */
+        .hero-section {
+            background: linear-gradient(to right, #667eea, #764ba2); /* Example gradient */
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .btn-primary {
+            background-color: #667eea; /* Tailwind indigo-500 */
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #5a67d8; /* Tailwind indigo-600 */
+        }
+         /* Style for the university list - adding some basic styling */
+        .university-list {
+            columns: 1; /* Default for small screens */
+        }
+        @media (min-width: 768px) { /* md breakpoint */
+            .university-list {
+                columns: 2; /* Two columns on medium screens and up */
+            }
+        }
+        @media (min-width: 1024px) { /* lg breakpoint */
+            .university-list {
+                columns: 2; /* Two columns on large screens and up */
+            }
+        }
+        /* Custom table styling */
+        .service-table th, .service-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0; /* gray-200 */
+        }
+        .service-table th {
+            background-color: #f8fafc; /* gray-50 */
+            font-weight: 600;
+            color: #4a5568; /* gray-700 */
+        }
+        .service-table tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-indigo-600">2025 영국유학 비자 지원센터</div>
+            <div>
+                <a href="#intro" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">소개</a>
+                <a href="#services" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">서비스 안내</a>
+                 <a href="#partners" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">파트너 대학</a>
+                <a href="#visa-help" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">비자 전문가</a>
+                <a href="#apply" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">신청하기</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="intro" class="hero-section text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">혼자 지원해서 오퍼는 받았지만, 비자는 전문가와 함께 확실하게.</h1>
+            <p class="text-lg md:text-xl mb-4">🎓 영국 대학 합격, 진심으로 축하드립니다!</p>
+            <p class="text-lg md:text-xl mb-8">하지만 진짜 시작은 지금부터입니다.</p>
+            <p class="text-lg md:text-xl mb-8">비자 신청, 프리세셔널 등록, 출국 준비—</p>
+            <p class="text-lg md:text-xl mb-8">실수 없이, 안전하게.</p>
+            <p class="text-lg md:text-xl mb-8">영국유학 비자지원센터가 무료로 끝까지 함께합니다.</p>
+            <a href="#apply" class="bg-white text-indigo-600 font-semibold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300">지금 무료 비자 지원 시작하기</a>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">💼 무료 지원 서비스 안내</h2>
+            <div class="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 overflow-x-auto">
+                <table class="min-w-full service-table">
+                    <thead>
+                        <tr>
+                            <th class="w-1/3">서비스 항목</th>
+                            <th class="w-2/3">상세 내용</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>비자 지원 상담</td>
+                            <td>무료 비자 대행 대상 여부 확인</td>
+                        </tr>
+                        <tr>
+                            <td>CAS 발급 요청 대행(일부 대학)</td>
+                            <td>CAS 발급 요청 진행</td>
+                        </tr>
+                        <tr>
+                            <td>프리세셔널 등록 지원</td>
+                            <td>필요한 경우 입학 전 사전어학(Pre-sessional) 과정 신청 대행</td>
+                        </tr>
+                        <tr>
+                            <td>비자 신청 서류 안내</td>
+                            <td>결핵검사, 재정 증빙 준비 철저 안내</td>
+                        </tr>
+                        <tr>
+                            <td>비자 신청서 작성 지원</td>
+                            <td>개별 확인 후 신청서 작성 및 최종 제출</td>
+                        </tr>
+                         <tr>
+                            <td>비자비·건강보험료 결제 안내</td>
+                            <td>결제 방법 및 비자센터 방문 준비물 안내</td>
+                        </tr>
+                        <tr>
+                            <td>비자 발급 후 최종 점검</td>
+                            <td>Vignette과 Decision Letter 확인, E-visa 신청 안내까지</td>
+                        </tr>
+                        <tr>
+                            <td>(선택) 기숙사 예약 지원</td>
+                            <td>기숙사 전문 예약업체 연결</td>
+                        </tr>
+                         <tr>
+                            <td>출국 전 오리엔테이션</td>
+                            <td>영국 생활 꿀팁 총정리 안내</td>
+                        </tr>
+                         <tr>
+                            <td>장학금 정보 검토 및 신청 지원</td>
+                            <td>무료 비자 대행 신청자에게 파트너 대학 장학금 정보 확인 및 신청 절차 도움 제공</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+     <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+             <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">🎯 무료 지원 신청 조건</h2>
+             <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-200 inline-block text-left">
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>유학원을 통하지 않고 직접 파트너 대학에 지원하여 오퍼를 받은 학생</li>
+                    <li>Pathway College(패스웨이) 경유 진학, 복학자는 제외</li>
+                </ul>
+             </div>
+        </div>
+    </section>
+
+
+    <section id="partners" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">🏫 서비스 이용 가능 파트너 대학</h2>
+            <div class="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200">
+                <p class="text-lg text-gray-700 mb-6 text-center">아래 목록의 대학 합격자분들은 무료 수속 및 비자 지원 서비스를 이용하실 수 있습니다.</p>
+                <ul class="university-list space-y-2 text-gray-700">
+                    <li>Aberystwyth University (애버리스티스대학교)</li>
+                    <li>Aberdeen, University of (아버딘 대학교)</li>
+                    <li>Arts University Bournemouth (본머스예술대)</li>
+                    <li>Aston University (아스톤대학교)</li>
+                    <li>Bath, University of (바스대학교)</li>
+                    <li>Birkbeck, University of London (버벡 런던대)</li>
+                    <li>Birmingham, University of (버밍엄대학교)</li>
+                    <li>Bournemouth University (본머스대학교)</li>
+                    <li>Brighton, University of (브라이튼대학교)</li>
+                    <li>Bristol, University of (브리스톨대학교)</li>
+                    <li>Brunel University of London (브루넬 런던대)</li>
+                    <li>Cardiff Metropolitan University (카디프 메트로폴리탄대학교)</li>
+                    <li>Cardiff University (카디프대학교)</li>
+                    <li>Central Lancashire, University of (UCLan) (센트럴 랑카셔대학교)</li>
+                    <li>Coventry University (코벤트리대학교)</li>
+                    <li>Cranfield University (크랜필드대학교)</li>
+                    <li>De Montfort University (드몽포트대학교)</li>
+                    <li>Dundee, University of (던디대학교)</li>
+                    <li>Durham University (더럼대학교)</li>
+                    <li>East Anglia, University of (이스트 앵글리아대학교)</li>
+                    <li>Essex, University of (에식스대학교)</li>
+                    <li>Exeter, University of (엑시터대학교)</li>
+                    <li>Glasgow School of Art (글래스고대학교)</li>
+                    <li>Glasgow, University of (골드스미스 런던대)</li>
+                    <li>Goldsmiths, University of London (그리니치대학교)</li>
+                    <li>Greenwich, University of (허더스필드대학교)</li>
+                    <li>Huddersfield, University of (허더스필드대학교)</li>
+                    <li>Kent, University of (켄트대학교)</li>
+                    <li>Kingston University (킹스턴대학교)</li>
+                    <li>Lancaster University (랑카스터대학교)</li>
+                    <li>Leeds Arts University (리즈 아트 대학교)</li>
+                    <li>Leeds Beckett University (리즈 베켓대학교)</li>
+                    <li>Leeds, University of (리즈대학교)</li>
+                    <li>Leicester. University of (레스터대학교)</li>
+                    <li>Liverpool Institute for Performing Arts (LIPA: 리파)</li>
+                    <li>Liverpool John Moores University (리버풀 존 무어 대학교)</li>
+                    <li>Liverpool, University of (리버풀대학교)</li>
+                    <li>Manchester Metropolitan University (맨체스터 메트로폴리탄대학교)</li>
+                    <li>Newcastle University (뉴캐슬대학교)</li>
+                    <li>Northumbria University, Newcastle (노섬브리아대학교)</li>
+                    <li>Nottingham Trent University (노팅엄트렌트대학교)</li>
+                    <li>Nottingham, University of (노팅엄대학교)</li>
+                    <li>Oxford Brookes University (옥스포드 브룩스대학교)</li>
+                    <li>Plymouth, University of (플리머스대학교)</li>
+                    <li>Portsmouth, University of (포츠머스대학교)</li>
+                    <li>Queen Mary, University of London (퀸메리 런던대)</li>
+                    <li>Queen’s University, Belfast (퀸즈 대학교 벨파스트)</li>
+                    <li>Ravensbourne (레이번스본)</li>
+                    <li>Reading, University of (레딩대학교)</li>
+                    <li>Royal Holloway, University of London (로열 홀로웨이 런던대)</li>
+                    <li>Sheffield Hallam University (셰필드 할램 대학교)</li>
+                    <li>Sheffield, University of (셰필드대학교)</li>
+                    <li>SOAS, University of London (소아스 런던대)</li>
+                    <li>Southampton, University of (사우스햄튼대학교)</li>
+                    <li>St. Andrews, University of (세인트 앤드류스대학교)</li>
+                    <li>Strathclyde, University of (스트라스클라이드대학교)</li>
+                    <li>Surrey, University of (서리대학교)</li>
+                    <li>Sussex, University of (서식스대학교)</li>
+                    <li>University for the Creative Arts (UCA)</li>
+                    <li>Warwick, University of (워릭대학교)</li>
+                    <li>West London, University of (웨스트 런던대학교)</li>
+                    <li>West of England, Bristol. University of (웨스트 잉글랜드 대학교 브리스톨)</li>
+                    <li>Westminster, University of (웨스트민스터대학교)</li>
+                    <li>York. University of (요크대학교)</li>
+                </ul>
+                <p class="text-center text-gray-600 mt-6">*이 리스트에 없는 대학은 문의 주세요</p>
+                 <div class="text-center mt-8">
+                    <p class="text-lg text-gray-700 mb-4">📋 내가 지원한 학교가 리스트에 없다면?</p>
+                    <a href="#apply" class="btn-primary text-white font-semibold py-2 px-6 rounded-md hover:bg-indigo-700 transition duration-300">[문의하기] 버튼 클릭!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="visa-help" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+             <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">🔍 학생비자, 직접 신청해도 괜찮을까요?</h2>
+             <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-gray-700 leading-relaxed">
+                <p class="mb-4">비자 신청비만 약 90만원 (환율 변동)</p>
+                <p class="mb-4">서류 실수 → 비자 거절 → 재신청 비용 + 입학 지연</p>
+                <p class="mb-6">결핵검사, 재정 증빙, CAS 확인까지 복잡한 절차</p>
+                <p class="mb-6 text-red-600 font-semibold">한 번의 실수가 1년을 잃을 수 있습니다.</p>
+                <p class="text-center text-lg font-semibold text-indigo-700">비자는 전문가와 함께, 정확하게 준비하세요.</p>
+             </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+             <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">📚 프리세셔널 과정이란?</h2>
+             <div class="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 text-gray-700 leading-relaxed">
+                <p class="mb-4">입학 전, 대학교 부설 어학원에서 진행하는 아카데믹 영어 과정</p>
+                <p class="mb-4">영어 점수가 부족하거나, 학업 준비가 더 필요한 경우 추천</p>
+                <p class="mb-6">수료 시 별도 IELTS 제출 없이 입학 가능 (학교별 규정 상이)</p>
+                 <div class="text-center mt-8">
+                    <p class="text-lg text-gray-700 mb-4">✨ 내 점수로 몇 주짜리 과정이 필요한지 궁금하다면?</p>
+                    <a href="#apply" class="btn-primary text-white font-semibold py-2 px-6 rounded-md hover:bg-indigo-700 transition duration-300">[프리세셔널 상담 신청] 버튼</a>
+                </div>
+             </div>
+        </div>
+    </section>
+
+     <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+             <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">✈️ 출국 전 오리엔테이션</h2>
+             <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-gray-700 leading-relaxed">
+                <p class="mb-4">출국 준비물부터 항공권, 영국 입국, 기숙사 생활, 통신사 개통까지</p>
+                <p class="mb-4">영국 생활에 필요한 핵심 정보 총정리</p>
+                <p class="mb-4">매년 6–8월, 온라인으로 실시간 진행</p>
+             </div>
+        </div>
+    </section>
+
+
+    <section id="apply" class="py-16 bg-indigo-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">💬 지금 무료 비자 지원 신청하기!</h2>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+                 <ul class="list-none space-y-4 text-gray-700 mb-6">
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> 무료 대상 여부 빠르게 확인</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> 비자, 프리세셔널, 출국까지 원스톱 준비</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✅</span> 오랜 경력의 영국유학센터 전문가팀 지원</li>
+                 </ul>
+
+                <p class="text-center text-gray-600 mb-6">아래 정보를 입력해주시면, 확인 후 신속하게 연락드리겠습니다.</p>
+                <form action="#" method="POST">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-medium mb-2">이름</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">이메일</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                     <div class="mb-4">
+                        <label for="phone" class="block text-gray-700 font-medium mb-2">연락처</label>
+                        <input type="tel" id="phone" name="phone" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="예: 010-1234-5678">
+                    </div>
+                    <div class="mb-4">
+                        <label for="university" class="block text-gray-700 font-medium mb-2">합격 대학</label>
+                        <input type="text" id="university" name="university" required placeholder="예: University of Example" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="offer_type" class="block text-gray-700 font-medium mb-2">오퍼 종류</label>
+                        <select id="offer_type" name="offer_type" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white">
+                            <option value="" disabled selected>오퍼 종류를 선택하세요</option>
+                            <option value="conditional">조건부 오퍼 (Conditional)</option>
+                            <option value="unconditional">무조건부 오퍼 (Unconditional)</option>
+                        </select>
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 font-medium mb-2">문의사항 (선택)</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="궁금한 점이나 추가 요청사항을 적어주세요."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn-primary text-white font-semibold py-3 px-8 rounded-md hover:bg-indigo-700 transition duration-300 w-full md:w-auto">
+                            지금 무료 비자 지원 시작하기
+                        </button>
+                    </div>
+                </form>
+                <div class="mt-8 text-center text-gray-600">
+                    <p>또는 이메일/전화/카카오톡으로 직접 문의하실 수도 있습니다.</p>
+                    <p class="mt-2">📧 <a href="mailto:j.lee@ukcentre.co.kr" class="text-indigo-600 hover:underline">j.lee@ukcentre.co.kr</a></p>
+                    <p>📞 +82 2 393 1030</p>
+                    <p>💬 카카오톡 ID: uksinchon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+             <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">📌 꼭 알아두세요</h2>
+             <div class="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 text-gray-700 leading-relaxed">
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>일부 파운데이션·프리마스터·에이레벨 과정 학생도 무료 지원 가능 (상담 필요)</li>
+                    <li>영국유학 비자 지원센터는 영국유학센터 신촌지사 비자서비스팀입니다.</li>
+                    <li>모든 상담원은 British Council 공인 에이전트(Certified Agent) 입니다.</li>
+                </ul>
+             </div>
+        </div>
+    </section>
+
+
+    <section id="privacy-policy" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">개인정보 처리방침</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-gray-700 leading-relaxed">
+                <p>개인정보 처리방침의 자세한 내용은 아래 링크를 참고해주세요.</p>
+                <p class="mt-4 text-center">
+                    <a href="#" onclick="openPrivacyPolicy()" class="btn-primary text-white font-semibold py-2 px-6 rounded-md hover:bg-indigo-700 transition duration-300">개인정보 처리방침 전문 보기</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>&copy; 영국유학 비자 지원센터. All rights reserved.</p>
+            <p class="mt-2">서울특별시 서대문구 신촌로 127 신촌르메이르타운 3차 307호 (창천동)</p>
+            <p class="mt-4">📧 이메일: j.lee@ukcentre.co.kr</p>
+            <p>📞 전화: +82 2 393 1030</p>
+            <p>💬 카카오톡 ID: uksinchon</p>
+            <p class="mt-2"><a href="#privacy-policy" class="text-gray-400 hover:text-white">개인정보 처리방침</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Function to open the privacy policy immersive document (requires platform support)
+        function openPrivacyPolicy() {
+            // This function is a placeholder. In a real web environment, clicking the button
+            // would typically open a modal, navigate to a new page, or fetch content dynamically.
+            // For this interactive environment, we'll rely on the platform's ability to
+            // display the linked privacy policy document.
+            console.log("Attempting to open Privacy Policy document.");
+            // A more robust implementation would involve checking for platform APIs or using standard web navigation.
+        }
+    </script>
+
+</body>
+</html>
