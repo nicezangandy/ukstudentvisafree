@@ -1,0 +1,13 @@
+{
+  "bpm": 120, "fps": 30, "width": 1080, "height": 1920,
+  "cuts": [
+    {"t": 0.0,  "d": 3.0, "src": "mg:hook@0"},
+    {"t": 3.0,  "d": 4.0, "src": "mg:history@0"},
+    {"t": 7.0,  "d": 4.0, "src": "mg:celta@0"},
+    {"t": 11.0, "d": 4.0, "src": "mg:location@0"},
+    {"t": 15.0, "d": 4.0, "src": "mg:building@0"},
+    {"t": 19.0, "d": 4.0, "src": "mg:exam@0"},
+    {"t": 23.0, "d": 3.0, "src": "mg:courses@0"},
+    {"t": 26.0, "d": 4.0, "src": "mg:end@0"}
+  ]
+}

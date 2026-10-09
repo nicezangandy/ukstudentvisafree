@@ -1,0 +1,7 @@
+== gate edit (.)
+PASS  B01  BPM 120, fps 30, 컷 8개
+PASS  B02  모든 컷 경계가 박 격자 위(반 프레임 이내)
+PASS  B03  첫 컷이 0초에서 시작하고 컷 사이에 빈틈·겹침 없음
+PASS  B04  반복 컷 없음
+WARN  B06  clip/ 폴더가 없어 src 클립 파일과 사용 구간 검사를 건너뜀
+== PASS edit: BLOCK 0개

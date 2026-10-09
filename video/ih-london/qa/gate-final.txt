@@ -1,0 +1,12 @@
+== gate final (.)
+PASS  F01  out/final.mp4 있음
+PASS  F02  프레임 900개 = 30fps x 30.00초
+PASS  F03  오디오 스트림 있음
+PASS  F04  해상도 (1080, 1920)
+PASS  F08  fps 30
+PASS  F09  오디오 30.00초, 영상 30.00초
+PASS  F05  라우드니스 -15.3 LUFS
+PASS  F06  true peak -1.1 dBFS
+PASS  F07  qa/review.md 에 REVIEWED 줄과 본 결과가 있음
+PASS  F10  검수 기록이 최종본보다 나중에 작성됨
+== PASS final: BLOCK 0개

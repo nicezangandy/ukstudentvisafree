@@ -1,0 +1,5 @@
+node_modules/
+out/picture.mp4
+out/mix.wav
+qa/still-*.png
+.browser

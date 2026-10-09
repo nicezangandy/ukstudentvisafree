@@ -1,0 +1,7 @@
+== gate story (.)
+PASS  S01  STORY.md 있음
+PASS  S02  빈칸(<...>) 모두 채움
+PASS  S03  BPM 120 기록됨
+PASS  S04  음악 싱크 지점 2행, 시간(초)이 모두 숫자
+PASS  S05  장면 8행, 빈 칸 없음
+== PASS story: BLOCK 0개
